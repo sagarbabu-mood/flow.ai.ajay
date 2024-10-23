@@ -15,5 +15,8 @@
     "express": "^4.21.1",
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7"
+  },
+   "engines": {
+    "node": "20.x" // Adjust according to the version you're using
   }
 }
