@@ -4,8 +4,8 @@ const app = express()
 const db = require ("./db")
 app.use(express.json())
 
-app.listen(4000,()=>{
-    console.log("Server is  Running at http://localhost:4000")
+app.listen(3000,()=>{
+    console.log("Server is  Running at http://localhost:3000")
 })
 
 app.post("/transactions" ,async(request,response)=>{
